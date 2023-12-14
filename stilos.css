@@ -1,0 +1,129 @@
+    
+   
+    .nave {
+      background-color: #000000;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      }
+      
+     
+      .nave a {
+      color: rgb(255, 68, 68);
+      text-decoration: none;
+      }
+      
+      
+      .nave a:hover {
+      color: black;
+      background-color: rgb(241, 64, 28);
+      padding: 5px;
+      border-radius: 6px;
+      }
+  
+         
+      
+      iframe {
+          overflow: hidden;
+          height: 100vh;
+          width: 100%;
+        }
+       
+  
+      body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin:10px;
+      padding:0px;
+      overflow:hidden;    
+      }
+  
+      
+      .principal {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      }
+      
+     
+      .principal-h1 { 
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-size: 32px;
+          color: var(--cor-primaria);
+          margin: 0;
+          padding: 10px;
+      }
+      
+      .principal-h2 { 
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 22px;
+          color: var(--cor-primaria);
+          margin: 0;
+          padding: 10px;
+      }
+      
+      
+      
+     
+      .texto{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      text-align:justify;
+      max-width: 999px;
+      margin: 0 auto;
+        }
+        
+      
+      
+     
+      .principal img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      }
+      
+     
+      .contato {
+          background-color:rgba(180, 70, 194, 0.627);
+          color: rgb(255, 255, 255);
+          border: 2px solid rgb(0, 0, 0);
+          margin: 20px;
+          padding: 20px;
+      }
+      
+  .principal1 {
+      background-color:rgba(239, 45, 20, 0.627);
+      color: rgb(255, 255, 255);
+      border: 2px solid rgb(55, 1, 1);
+      margin: 20px;
+      padding: 20px;
+  }
+  
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: bisque;
+  }
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: rgb(230, 66, 33);
+  }
+  li {
+      float: left;
+  }
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  li a:hover {
+      background-color: rgb(12, 84, 34);
+  }
+  .fundo{
+    background-color: bisque;
+  }
